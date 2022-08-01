@@ -49,3 +49,12 @@
     background-color: indigo;
     border: none;
 }
+
+.void {
+    background-color: limegreen;
+}
+
+.corps {
+    width: 80%;
+    margin:auto;
+}
