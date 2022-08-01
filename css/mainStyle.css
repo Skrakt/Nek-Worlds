@@ -13,6 +13,7 @@
 /** Corps principal **/
 
 /** Partie Haute**/
+
 .games-finder {
     font-family: "Singa", sans-serif;
     display: flex;
@@ -24,7 +25,6 @@
 }
 
 .button {
-    
     color: white;
     background-color: firebrick;
     border: none;
@@ -57,7 +57,13 @@
     background-color: limegreen;
 }
 
-.corps {
+.game {
     width: 80%;
     margin:auto;
+}
+
+.col{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%
 }
