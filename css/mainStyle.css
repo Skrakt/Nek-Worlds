@@ -1,11 +1,12 @@
-
 @font-face {
-    font-family: "Zabal DEMO Medium";
-    src: url("polices/Zabal-Medium.otf") format("otf");
-    font-family: "Singa Serif DEMO" ;
-    src: url("polices/Singa.otf") format("otf") ;
-    font-family: "New Glitch Demo" ;
-    src: url("polices/Glitch.otf") format("otf");
+    font-family: "Zabal";
+    src: url("../polices/Zabal-Medium.otf") format("otf");
+
+    font-family: "Singa" ;
+    src: url("../polices/Singa.ttf") format("ttf") ;
+
+    font-family: "Glitch" ;
+    src: url("../polices/Glitch.ttf") format("ttf");
    }
 
 
@@ -13,6 +14,7 @@
 
 /** Partie Haute**/
 .games-finder {
+    font-family: "Singa", sans-serif;
     display: flex;
     width: 20%;
     background-color: firebrick;
@@ -22,6 +24,7 @@
 }
 
 .button {
+    
     color: white;
     background-color: firebrick;
     border: none;
