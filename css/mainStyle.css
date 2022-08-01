@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Zabal DEMO Medium";
+    src: url("polices/Zabal-Medium.otf") format("otf");
+    font-family: "Singa Serif DEMO" ;
+    src: url("polices/Singa.otf") format("otf") ;
+    font-family: "New Glitch Demo" ;
+    src: url("polices/Glitch.otf") format("otf");
+   }
