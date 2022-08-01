@@ -1,0 +1,43 @@
+
+
+
+/** Corps principal **/
+
+/** Partie Haute**/
+.games-finder {
+    display: flex;
+    width: 20%;
+    background-color: firebrick;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: firebrick;
+    border: none;
+    width: 100%;
+}
+
+.button:hover {
+    transition: 300ms;
+    background-color: rgb(145, 26, 26);
+    padding: 5px;
+}
+
+.enterTheNek {
+    display: flex;
+    background-color: indigo;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-size:xx-large;
+      
+}
+
+.button2 {
+    color: white;
+    background-color: indigo;
+    border: none;
+}
