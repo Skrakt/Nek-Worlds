@@ -1,37 +1,28 @@
 @font-face {
-    font-family: "Zabal";
-    src: url("../polices/Zabal-Medium.otf") format("otf");
 
-    font-family: "Singa" ;
-    src: url("../polices/Singa.ttf") format("ttf") ;
+    font-family: "LeagueGothic";
+    src: url("../polices/LeagueGothic.woff") format("woff");
+    src: url("../polices/LeagueGothic.woff2") format("woff2");
 
-    font-family: "Glitch" ;
-    src: url("../polices/Glitch.ttf") format("ttf");
-   }
-
+    font-family: "Montserrat" ;
+    src: url("../polices/montserrat.woff") format("woff");
+    src: url("../polices/montserrat.woff2") format("woff2");
+}
 
 /** Corps principal **/
 
 /** Partie Haute**/
 
-.games-finder {
-    font-family: "Zabal", sans-serif;
-    display: flex;
-    width: 20%;
-    background-color: #990000;
-    justify-content: center;
-    margin: auto;
-    text-align: center;
-}
 
-.button {
+.gf-btn {
+    font-family: "Kdam Thmor Pro", sans-serif;
     color: white;
     background-color: #990000;
     border: none;
     width: 100%;
 }
 
-.button:hover {
+.gf-btn:hover {
     transition: 300ms;
     background-color: #6d0000;
     padding: 5px;
@@ -47,7 +38,8 @@
     border: solid 2px black;
 }
 
-.button2 {
+.etn-btn {
+    font-family: "Montserrat", sans-serif;
     color: white;
     background-color: #351c75;
     border: none;
@@ -67,3 +59,12 @@
     padding-top: 20px;
 }
 
+.games-finder {
+    font-family: "new_glitch_demoregular", sans-serif;
+    display: flex;
+    width: 20%;
+    background-color: #990000;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
