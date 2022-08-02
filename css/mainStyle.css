@@ -9,6 +9,12 @@
 
 /** Partie Haute**/
 
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+
 .Nek {
     font-family: "Kdam Thmor Pro", sans-serif;
     padding: auto;
@@ -73,21 +79,25 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 50px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 80px;
 }
 
 .navbar-toggler{
     position: relative;
+    margin-bottom: 13px;
     height: 50px;
     width: 50px;
     border: none;
 }
 
-
 .navbar > .container-fluid {
     background-color: #181818;
-    height: 80px;
+    height: 100%;
 }
 
 .navbar-brand {
@@ -104,6 +114,25 @@
 }
 
 .navblank {
-    height: 50px;
+    height: 100%;
     width: 50px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.footer {
+    background-color: #181818;
+    width: 100%;
+    height: 300px;
+}
+
+.contact{
+    justify-items: end;
+    text-align: end;
 }
