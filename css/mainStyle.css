@@ -1,9 +1,5 @@
 @font-face {
 
-    font-family: "LeagueGothic";
-    src: url("../polices/LeagueGothic.woff") format("woff");
-    src: url("../polices/LeagueGothic.woff2") format("woff2");
-
     font-family: "Montserrat" ;
     src: url("../polices/montserrat.woff") format("woff");
     src: url("../polices/montserrat.woff2") format("woff2");
@@ -12,11 +8,17 @@
 /** Corps principal **/
 
 /** Partie Haute**/
+
+.Nek {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .games-finder {
-    font-family: "new_glitch_demoregular", sans-serif;
     display: flex;
     width: 60%;
-    background-color: #990000;
     justify-content: center;
     margin: auto;
 }
@@ -25,8 +27,9 @@
     font-family: "Kdam Thmor Pro", sans-serif;
     color: white;
     background-color: #990000;
-    border: none;
+    border: solid 1px black;
     width: 100%;
+    box-shadow: #181818;
 }
 
 .gf-btn:hover {
@@ -42,7 +45,7 @@
     width: 100%;
     height: 100px;
     font-size:xx-large;
-    border: solid 2px black;
+    border-bottom: solid 1px black;
 }
 
 .etn-btn {
@@ -67,16 +70,24 @@
 }
 
 .compte {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 50px;
     width: 50px;
 }
 
 .navbar-toggler{
+    position: relative;
+    height: 50px;
+    width: 50px;
     border: none;
 }
 
-.navbar {
+
+.navbar > .container-fluid {
     background-color: #181818;
+    height: 80px;
 }
 
 .navbar-brand {
@@ -90,4 +101,9 @@
 
 .nav-link {
     color: white;
+}
+
+.navblank {
+    height: 50px;
+    width: 50px;
 }
