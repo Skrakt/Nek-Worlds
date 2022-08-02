@@ -12,6 +12,14 @@
 /** Corps principal **/
 
 /** Partie Haute**/
+.games-finder {
+    font-family: "new_glitch_demoregular", sans-serif;
+    display: flex;
+    width: 60%;
+    background-color: #990000;
+    justify-content: center;
+    margin: auto;
+}
 
 .gf-btn {
     font-family: "Kdam Thmor Pro", sans-serif;
