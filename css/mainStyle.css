@@ -13,7 +13,6 @@
 
 /** Partie Haute**/
 
-
 .gf-btn {
     font-family: "Kdam Thmor Pro", sans-serif;
     color: white;
@@ -59,12 +58,28 @@
     padding-top: 20px;
 }
 
-.games-finder {
-    font-family: "new_glitch_demoregular", sans-serif;
-    display: flex;
-    width: 20%;
-    background-color: #990000;
+.compte {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar {
+    background-color: #181818;
+}
+
+.navbar-brand {
+    color: white;
     justify-content: center;
-    margin: auto;
-    text-align: center;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
 }
