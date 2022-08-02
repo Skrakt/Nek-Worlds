@@ -67,3 +67,28 @@
     padding-top: 20px;
 }
 
+.compte {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar {
+    background-color: #181818;
+}
+
+.navbar-brand {
+    color: white;
+    justify-content: center;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
