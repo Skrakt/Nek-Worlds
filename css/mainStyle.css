@@ -109,21 +109,16 @@ h1 {
     color: white;
 }
 
-.nav-link {
+.nav-link,
+.nav-link:hover,
+.nav-link:visited
+{
     color: white;
 }
 
 .navblank {
     height: 100%;
     width: 50px;
-}
-
-.nav-link:hover {
-    color: white;
-}
-
-.nav-link:visited {
-    color: white;
 }
 
 .footer {
