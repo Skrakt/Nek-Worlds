@@ -131,3 +131,12 @@ h1 {
     justify-items: end;
     text-align: end;
 }
+
+.your {
+    background-color: #990000;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    padding-top: 25px;
+}
